@@ -1,0 +1,4 @@
+dataset.json
+sentiment_model.pkl
+__pycache__/
+.venv
