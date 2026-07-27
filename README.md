@@ -21,25 +21,29 @@ Proje; otomatik veri çekme ve temizleme (`fetch_dataset.py`), model eğitimi ve
 Öncelikle gerekli kütüphaneleri yükleyin:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ### 2. Veri Setinin Çekilmesi
 Turkish NLP Suite deposundan veri setinin indirilip `dataset.json` dosyasını oluşturmak için:
 
 ```bash
-python fetch_dataset.py```
+python fetch_dataset.py
+```
 
 ### 3. Modelin Eğitilmesi ve Değerlendirilmesi
 Modeli eğitmek, başarı oranlarını görüntülemek ve `confusion_matrix.png` görselini üretmek için:
 
 ```bash
-python train.py```
+python train.py
+```
 
 ### 4. İnteraktif Arayüzün Çalıştırılması
 Eğitilen `sentiment_model.pkl` dosyasını yükleyip kendi film yorumlarınızı test etmek için:
 
 ```bash
-python app.py```
+python app.py
+```
 
 --- 
 
@@ -72,6 +76,7 @@ Bu veri setini projelerinizde kullanırken lütfen aşağıdaki makaleye atıfta
     url = "[https://aclanthology.org/2023.acl-long.768](https://aclanthology.org/2023.acl-long.768)",
     pages = "13739--13750"
 }
+```
 
 ## 📄 Lisans
 Bu projenin kaynak kodları MIT License altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
